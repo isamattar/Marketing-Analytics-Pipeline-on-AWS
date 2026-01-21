@@ -10,19 +10,19 @@ Aviso Importante: Este projeto utiliza dados fictícios, criados apenas para fin
 Problema de Negócio
 Empresas de publicidade lidam com grandes volumes de dados de campanhas vindos de diferentes mídias e formatos. A ausência de um ambiente centralizado dificulta:
 
- 	• A análise de performance das campanhas
- 	• A comparação entre tipos de mídia
- 	• A mensuração de ROI
- 	• A tomada de decisões baseadas em dados
+ - A análise de performance das campanhas
+ - A comparação entre tipos de mídia
+ - A mensuração de ROI
+ - A tomada de decisões baseadas em dados
 
 Este projeto busca resolver esse problema por meio de um Data Lake na AWS, permitindo análises escaláveis e organizadas.
 
 Objetivos do Projeto
- 	• Construir um pipeline de dados na AWS
- 	• Centralizar dados de campanhas publicitárias
- 	• Realizar tratamento e padronização dos dados (ETL)
- 	• Analisar KPIs de marketing e mídia
- 	• Criar visualizações para suporte à tomada de decisão
+ - Construir um pipeline de dados na AWS
+ - Centralizar dados de campanhas publicitárias
+ - Realizar tratamento e padronização dos dados (ETL)
+ - Analisar KPIs de marketing e mídia
+ - Criar visualizações para suporte à tomada de decisão
 
 Arquitetura da Solução
 
@@ -35,52 +35,52 @@ Fluxo de Dados:
  	6. Visualização via Power BI / Amazon QuickSight
 
  Serviços AWS Utilizados
- 	• Amazon S3 – Armazenamento dos dados brutos e processados
- 	• AWS IAM – Gerenciamento de permissões
- 	• AWS Glue – ETL e catalogação de dados
- 	• Amazon Athena – Consultas SQL
- 	• Amazon CloudWatch – Monitoramento e logs
- 	• Amazon QuickSight – Dashboard
+ 	- Amazon S3 – Armazenamento dos dados brutos e processados
+ 	- AWS IAM – Gerenciamento de permissões
+ 	- AWS Glue – ETL e catalogação de dados
+ 	- Amazon Athena – Consultas SQL
+ 	- Amazon CloudWatch – Monitoramento e logs
+ 	- Amazon QuickSight – Dashboard
 
 Estrutura dos Dados
 Os dados simulam campanhas publicitárias e estão organizados em arquivos CSV:
  campaigns.csv
- 	• campaign_id
- 	• client
- 	• media_type (OOH, Digital, Retail Media)
- 	• start_date
- 	• end_date
- 	• budget
+ 	- campaign_id
+ 	- client
+ 	- media_type (OOH, Digital, Retail Media)
+ 	- start_date
+ 	- end_date
+ 	- budget
 impressions.csv
- 	• campaign_id
- 	• date
- 	• impressions
- 	• clicks
- 	• cost
+ 	- campaign_id
+ 	- date
+ 	- impressions
+ 	- clicks
+ 	- cost
  sales_impact.csv
- 	• campaign_id
- 	• date
- 	• conversions
- 	• revenue
+ 	- campaign_id
+ 	- date
+ 	- conversions
+ 	- revenue
 
  KPIs Analisados
- 	• Impressões totais
- 	• CTR (Click Through Rate)
- 	• CPC (Custo por Clique)
- 	• CPA (Custo por Aquisição)
- 	• ROI por campanha
- 	• Performance por tipo de mídia
- 	• Receita gerada vs investimento
+ 	- Impressões totais
+ 	- CTR (Click Through Rate)
+ 	- CPC (Custo por Clique)
+ 	- CPA (Custo por Aquisição)
+ 	- ROI por campanha
+ 	- Performance por tipo de mídia
+ 	- Receita gerada vs investimento
 
  Tecnologias Utilizadas
- 	• Python
- 	• Pandas
- 	• SQL
- 	• AWS SDK (Boto3)
- 	• Amazon Athena
- 	• AWS Glue
- 	• Streamlit / QuickSight
- 	• Git & GitHub
+ 	- Python
+ 	- Pandas
+ 	- SQL
+ 	- AWS SDK (Boto3)
+ 	- Amazon Athena
+ 	- AWS Glue
+ 	- Streamlit / QuickSight
+ 	- Git & GitHub
  
 Como Executar o Projeto (Resumo)
  	1. Criar um bucket no Amazon S3
@@ -91,17 +91,17 @@ Como Executar o Projeto (Resumo)
  	6. Visualizar os resultados no dashboard
 
  Diferenciais do Projeto
- 	• Pipeline completo de dados na AWS
- 	• Projeto alinhado ao mercado de publicidade
- 	• Aplicação prática de Data Science
- 	• Boa organização e documentação
- 	• Ideal para estágio e posições júnior
+ 	- Pipeline completo de dados na AWS
+ 	- Projeto alinhado ao mercado de publicidade
+ 	- Aplicação prática de Data Science
+ 	- Boa organização e documentação
+ 	- Ideal para estágio e posições júnior
 
 Próximos Passos
- 	• Automatizar ingestão com AWS Lambda
- 	• Integração com APIs de mídia digital
- 	• Aplicar modelos de Machine Learning para previsão de performance
- 	• Deploy do dashboard em ambiente cloud
+ 	- Automatizar ingestão com AWS Lambda
+ 	- Integração com APIs de mídia digital
+ 	- Aplicar modelos de Machine Learning para previsão de performance
+ 	- Deploy do dashboard em ambiente cloud
 
 - Contexto Acadêmico
 Projeto desenvolvido como parte do aprendizado em Data Science (1/2º semestre), com foco em Cloud Computing e análise de dados aplicados ao negócio.
