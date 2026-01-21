@@ -103,9 +103,10 @@ Próximos Passos
 	• Aplicar modelos de Machine Learning para previsão de performance
 	• Deploy do dashboard em ambiente cloud
 
-- Contexto Acadêmico
+ Contexto Acadêmico
 Projeto desenvolvido como parte do aprendizado em Data Science (1/2º semestre), com foco em Cloud Computing e análise de dados aplicados ao negócio.
 
+Contato
 Desenvolvido por Isabella Mattar
 
 Estudante de Data Science | AWS | Python | Analytics
