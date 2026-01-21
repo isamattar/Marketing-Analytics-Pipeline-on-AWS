@@ -1,0 +1,16 @@
+# Dados (não subir arquivos grandes)
+data/raw/*.csv
+data/processed/*.csv
+
+# Credenciais
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Sistema
+.DS_Store
